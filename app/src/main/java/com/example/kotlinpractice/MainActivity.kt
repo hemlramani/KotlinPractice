@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //hemal ramani @mr_ramani7
         btn = findViewById(R.id.button)
         recylerview = findViewById(R.id.recylerview)
         list = ArrayList<Model>() as MutableList<Model>
@@ -30,6 +31,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
+            list.add(Model("Jatin"))
             list.add(Model("Hemal"))
             list.add(Model("Navdeep"))
             list.add(Model("Trushil"))
